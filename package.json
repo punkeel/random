@@ -9,14 +9,14 @@
   "license": "MIT",
   "reveal": true,
   "scripts": {
-    "start": "yarn build:watch",
+    "start": "npm run build:watch",
     "docs": "update-markdown-jsdoc -f src/random.js --shallow",
     "build": "babel -s -d dist src",
     "build:watch": "babel -w -s -d dist src",
-    "prebuild": "yarn run clean",
+    "prebuild": "npm run clean",
     "clean": "del dist",
-    "prepublishOnly": "yarn run build",
-    "pretest": "yarn run build",
+    "prepublishOnly": "npm run build",
+    "pretest": "npm run build",
     "test": "ava -v && standard"
   },
   "engines": {
@@ -55,7 +55,7 @@
     "babel-runtime": "^6.26.0",
     "ow": "^0.4.0",
     "ow-lite": "^0.0.2",
-    "seedrandom": "^2.4.4"
+    "seedrandom": "^3.0.5"
   },
   "files": [
     "index.js",
