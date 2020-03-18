@@ -1,5 +1,5 @@
 {
-  "name": "random",
+  "name": "@punkeel/random",
   "version": "2.1.2",
   "description": "Seedable random number generator supporting many common distributions.",
   "main": "index.js",
