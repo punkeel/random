@@ -1,6 +1,6 @@
 {
   "name": "@punkeel/random",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Seedable random number generator supporting many common distributions.",
   "main": "index.js",
   "module": "src/random.js",
